@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Python Documentation</title>
+  </head>
+  <body>
+    <main id="main-doc">
+      <nav id="navbar">
+        <header id="title">Python Documentation</header>
+        <a class="nav-link" href="#Introduction">Introduction</a>
+        <a class="nav-link" href="#Python">Python</a>
+        <a class="nav-link" href="#Basics">Basics</a>
+        <a class="nav-link" href="#Hello_World">Hello World</a>
+        <a class="nav-link" href="#Reference">Reference</a>
+      </nav>
+      <section class="main-section" id="Introduction">
+        <article id="intro_text" class="article_1">
+          <header>Introduction</header>
+          <p class="article_1">Python is a very versatile language that anyone can learn! It's easier syntax and straightforward nature allows for beginners to pick up this programming language fast. I highly encourage everyone to learn this language in this growing technological age. </p>
+          <p class="article_1">In this guide, I will teach you the basics about the Python Programming Language. I hope you follow along. Let's get coding! :)</p>
+        </article>
+      </section>
+      <section class="main-section" id="Python">
+        <article id="python_text" class="article_2">
+          <header>Python</header>
+          <p class="article_2">So you decided you wanted to learn Python....what's next?</p>
+          <p class="article_2">First, you should download <a id="py_link" href="https://www.python.org/downloads/" target="_blank">Python</a> or a trusty Code Editor (ie <a href="https://code.visualstudio.com/download" target="_blank">VSCode</a>).</p>
+          <ol id="pystruct" class="article_2">
+            <li class="article_2">
+              Go through installation instructions for either Python or your code editor. (depends your choice)
+            </li>
+            <li class="article_2">
+              Test if you installation worked.
+            </li>
+              <ul class="article_2">
+                <li id="sub1" class="article_2"> For the <strong id="black"> code editor</strong>, install the Python extension and ensure you can create a .py file </li>
+                <li id="sub2" class="article_2">
+                  For the <strong id="black"> Python install</strong> make sure you have IDLE and can create a new .py file.
+                </li>
+              <ul>
+          </ol>
+        </article>
+      </section>
+      <section class="main-section" id="Basics">
+        <article id="basics-text" class="article_3"> 
+          <header>Basics</header>
+          <p class="article_3">In this section, I'm going to show you some of the basics of Python to get you started on your first program!</p>
+          <p class="article_3">
+            Here are the concepts I will go over:
+          </p>
+          <ol class="article_3">
+            <li class="article_3">
+              print() method
+            </li>
+            <li class="article_3">
+              "strings" 
+            </li>
+            <li class="article_3">
+              Operators (+, - , / , *)
+            </li>
+          </ol>
+          <p class="article_3">
+            <strong id="black">print(): </strong> is a method in Python that allows you to print text in your console. Below I show an example of you would print the word <span class="italic">"hello"</span> to the console.
+          </p>
+          <div id="hellowrld">
+            <code>print("hello")
+            </code>
+          </div>
+        <p class="article_3"><strong id="black">"Strings":</strong> are a text data type in Python that are not primitive. In <strong id= "black" class="italic">Python</strong>, strings are characters that are surrounded by <strong id= "black" class="italic">single quotes</strong> or <strong id= "black" class="italic">double quotes</strong>. This syntax doesn't apply to all programming languages (such as C# in which characters are denoted with single quotes and strings are denoted with double quotes ;)). Strings don't just have to be made up of letters from the alphabet. See examples below:</p>
+        <div id="strings">
+          <code>
+            type("hello") -> string (str)
+          </code>
+          <code>
+            type("12345") -> string(str)
+          </code>
+          <code>
+            type("12eg+") -> string(str) 
+          </code>
+        </div>
+        <p class="article_3"><strong id="black">Operators:</strong> are made up of simple operations that you would do in a math class. There are several types of operations you can do in Python such as addition, subtraction, division, and multiplication to name a few. Their symbols are just like the ones you would see in math class: + - / *
+        </p>
+        <div id="strings">
+          <code>
+            5+4 -> 9
+          </code>
+          <code>
+           6-10 -> -4
+          </code>
+          <code>
+            20/5 -> 4
+          </code>
+          <code>
+            100*2 -> 200
+          </code>
+        </div>
+          </article>
+      </section>
+      <section class="main-section" id="Hello_World">
+        <article class="article_4">
+          <header>Hello World</header>
+          <p class="article_4">Now you are going on your first program! <strong id="black">Using what we've learned you are going to create a "hello world" string generator!</strong></p>
+          <p class="article_4">Let's walk through it together :)</p>
+          <ol class="article_4">
+            <li class="article_4">
+              Print "hello world"to the console
+            </li>
+            <div id="hello_wrld">
+             <code>
+            print("hello world")
+             </code>
+            </div>
+            <p class="article_4">Great Job!</p>
+          <li class="article_4">
+            Now, use the multiplication operator to repeatedly print "hello world"
+          </li>
+          <p>You may be thinking to yourself, "how can I <strong id="black" class="italic">multiply</strong> words?!?! Well, Python is a powerful language and in programming the boundaries of what you can do are *mostly* endless :P</p>
+         <div id="hello_wrld">
+             <code>
+            print("hello world" * 2) -> hello worldhello world
+             </code>
+          </div>
+        </article>
+      </section>
+      <section class="main-section" id="Reference">
+        <article class="article_5">
+          <header>Reference</header>
+          <p class="article_5">For more information about Python, see the <a target=_blank href="https://docs.python.org/3/tutorial/index.html">official Python documentation!</a></p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
